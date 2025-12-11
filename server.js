@@ -16,22 +16,22 @@ app.use(express.static(path.join(__dirname, 'public')));
 // A/B 테스트 헤드라인 정의
 const headlines = {
   control: {
-    variant: 'Control',
+    variant: ' ',
     headline: '아직도 스크린샷만 찍고 잊어버리시나요?',
     description: '나와의 채팅방에 쌓여만 가는 정보들, Fast Memo로 1초 만에 정리해 보세요.'
   },
   variantA: {
-    variant: 'A - 손실 회피',
+    variant: '  ',
     headline: '매일 30분씩 메모 찾는 시간, 이제 그만 낭비하세요',
     description: '시간은 금입니다. Fast Memo로 찾는 시간을 0초로 만들어 보세요.'
   },
   variantB: {
-    variant: 'B - 즉각적 보상',
+    variant: '   ',
     headline: '1초 만에 저장, 1초 만에 찾기. 이게 진짜 메모입니다',
     description: '더 이상 카톡을 메모장처럼 쓰지 마세요. Fast Memo가 진짜 메모 경험을 제공합니다.'
   },
   variantC: {
-    variant: 'C - 사회적 증거',
+    variant: '    ',
     headline: '10만 명이 카톡 대신 선택한 메모 습관',
     description: 'Fast Memo로 당신도 스마트한 메모 습관을 시작해 보세요.'
   }
