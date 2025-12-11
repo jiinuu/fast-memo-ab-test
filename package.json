@@ -9,7 +9,11 @@
   "engines": {
     "node": "18.x"
   },
-  "keywords": ["ab-test", "landing-page", "fast-memo"],
+  "keywords": [
+    "ab-test",
+    "landing-page",
+    "fast-memo"
+  ],
   "author": "Manus AI",
   "license": "ISC",
   "description": "Fast Memo A/B Testing Landing Page",
@@ -20,6 +24,6 @@
   "dependencies": {
     "ejs": "^3.1.10",
     "express": "^5.2.1",
-    "uuid": "^13.0.0"
+    "uuid": "^8.3.2"
   }
 }
